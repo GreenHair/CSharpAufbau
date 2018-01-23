@@ -1,0 +1,14 @@
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\bin\Debug\MedienBibliothekWPF.exe.config
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\bin\Debug\MedienBibliothekWPF.exe
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\bin\Debug\MedienBibliothekWPF.pdb
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MainWindow.g.cs
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\App.g.cs
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF_MarkupCompile.cache
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF_MarkupCompile.lref
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MainWindow.baml
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.g.resources
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.Properties.Resources.resources
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.csproj.GenerateResource.Cache
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.exe
+D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.pdb
