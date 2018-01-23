@@ -28,5 +28,14 @@ namespace MedienBibliothek
                 _hauptdarsteller = value;
             }
         }
+
+        override public string Anzeigen(Medien DVD)
+        {
+            FilmDVD dvd = DVD as FilmDVD;
+            string str = "DVD:\n";
+            str += string.Format("Titel: {0}\tHauptdarsteller: {1}\tJahr: {2}", 
+                dvd.Titel, dvd.Hauptdarsteller, dvd.Erscheinungsjahr);
+            return str;
+        }
     }
 }

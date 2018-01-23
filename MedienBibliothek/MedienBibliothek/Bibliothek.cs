@@ -27,5 +27,13 @@ namespace MedienBibliothek
                 _bestand = value;
             }
         }
+
+        internal void Hinzufuegen(Medien medien)
+        {
+            if (medien != null)
+            {
+                _bestand.Add(medien);
+            }
+        }
     }
 }

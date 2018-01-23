@@ -27,10 +27,10 @@ namespace MedienBibliothek
                 return _titel;
             }
 
-            //set
-            //{
-            //    _titel = value;
-            //}
+            set
+            {
+                _titel = value;
+            }
         }
 
         public int Erscheinungsjahr
@@ -40,10 +40,17 @@ namespace MedienBibliothek
                 return _erscheinungsjahr;
             }
 
-            //set
-            //{
-            //    _erscheinungsjahr = value;
-            //}
+            set
+            {
+                _erscheinungsjahr = value;
+            }
+        }
+
+        virtual public string Anzeigen(Medien medium)
+        {
+            string str = "Medium:\n";
+            str += String.Format("Titel: {0}\tJahr: {1}", medium.Titel, medium.Erscheinungsjahr);
+            return str;
         }
     }
 }

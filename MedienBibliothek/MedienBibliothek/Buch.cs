@@ -24,10 +24,10 @@ namespace MedienBibliothek
                 return _verfasser;
             }
 
-            //set
-            //{
-            //    _verfasser = value;
-            //}
+            set
+            {
+                _verfasser = value;
+            }
         }
 
         public string Verlag
@@ -37,10 +37,19 @@ namespace MedienBibliothek
                 return _verlag;
             }
 
-            //set
-            //{
-            //    _verlag = value;
-            //}
+            set
+            {
+                _verlag = value;
+            }
+        }
+
+        override public string Anzeigen(Medien Buch)
+        {
+            Buch buch = Buch as Buch;
+            string str = "Buch:\n";
+            str +=  string.Format("Titel: {0}\tAuthor: {1}\tVerlag: {2}\tJahr: {3}",
+                buch.Titel, buch.Verfasser, buch.Verlag, buch.Erscheinungsjahr);
+            return str;
         }
     }
 }

@@ -23,10 +23,18 @@ namespace MedienBibliothek
                 return _interpret;
             }
 
-            //set
-            //{
-            //    _interpret = value;
-            //}
+            set
+            {
+                _interpret = value;
+            }
+        }
+
+        override public string Anzeigen(Medien CD)
+        {
+            MusikCD cd = CD as MusikCD;
+            string str = "CD:\n";
+            str += string.Format("Titel: {0}\tInterpret: {1}\tJahr: {2}", cd.Titel, cd.Interpret, cd.Erscheinungsjahr);
+            return str;
         }
     }
 }
