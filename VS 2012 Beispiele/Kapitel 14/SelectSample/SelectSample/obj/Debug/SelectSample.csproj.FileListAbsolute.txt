@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SelectSample\SelectSample\bin\Debug\SelectSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SelectSample\SelectSample\bin\Debug\SelectSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SelectSample\SelectSample\bin\Debug\SelectSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SelectSample\SelectSample\obj\Debug\SelectSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SelectSample\SelectSample\obj\Debug\SelectSample.pdb

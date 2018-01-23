@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlNodeNavigation\XmlNodeNavigation\bin\Debug\XmlNodeNavigation.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlNodeNavigation\XmlNodeNavigation\bin\Debug\XmlNodeNavigation.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlNodeNavigation\XmlNodeNavigation\bin\Debug\XmlNodeNavigation.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlNodeNavigation\XmlNodeNavigation\obj\Debug\XmlNodeNavigation.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlNodeNavigation\XmlNodeNavigation\obj\Debug\XmlNodeNavigation.pdb

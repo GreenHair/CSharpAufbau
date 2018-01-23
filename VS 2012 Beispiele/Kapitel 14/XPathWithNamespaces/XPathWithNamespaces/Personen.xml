@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Personen xmlns='http://www.TestURN.de '
+					xmlns:x='http://www.MyNS.com'>
+	<x:Person>
+		<Vorname>Manfred</Vorname>
+		<Zuname>Fischer</Zuname>
+		<Alter>45</Alter>
+		<Adresse Ort="Bonn" Strasse="Neuestr.34"></Adresse>
+	</x:Person>
+	<Person>
+		<Vorname>Klaus</Vorname>
+		<Zuname>Meier</Zuname>
+		<Alter>20</Alter>
+		<Adresse Ort="Köln" Strasse="Bahnhofstr.6"></Adresse>
+	</Person>
+	<Person>
+		<Vorname>Petra</Vorname>
+		<Zuname>Schmidt</Zuname>
+		<Alter>43</Alter>
+		<Adresse Ort="Düsseldorf" Strasse="Sauerteig 18"></Adresse>
+	</Person>
+	<Person>
+		<Vorname>Rolf</Vorname>
+		<Zuname>Klose</Zuname>
+		<Alter>66</Alter>
+		<Adresse Ort="Frankfurt" Strasse="Hanauerstr.78"></Adresse>
+	</Person>
+</Personen>

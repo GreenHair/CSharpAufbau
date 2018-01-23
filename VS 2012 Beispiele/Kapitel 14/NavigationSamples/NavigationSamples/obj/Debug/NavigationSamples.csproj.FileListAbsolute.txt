@@ -1,0 +1,6 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\bin\Debug\NavigationSamples.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\bin\Debug\NavigationSamples.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\bin\Debug\NavigationSamples.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\obj\Debug\NavigationSamples.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\obj\Debug\NavigationSamples.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\NavigationSamples\NavigationSamples\obj\Debug\NavigationSamples.pdb

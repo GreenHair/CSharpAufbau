@@ -1,0 +1,18 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe.config
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 12\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe.config
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.exe
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.pdb
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.exe
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\bin\Debug\BinaryReaderSample_2.pdb
+D:\CSharp Aufbau\BinaryReaderSample_2\BinaryReaderSample_2\obj\Debug\BinaryReaderSample_2.csprojResolveAssemblyReference.cache

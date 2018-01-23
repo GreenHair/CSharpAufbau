@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XPathNavigatorSample\XPathNavigatorSample\bin\Debug\XPathNavigatorSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XPathNavigatorSample\XPathNavigatorSample\bin\Debug\XPathNavigatorSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XPathNavigatorSample\XPathNavigatorSample\bin\Debug\XPathNavigatorSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XPathNavigatorSample\XPathNavigatorSample\obj\Debug\XPathNavigatorSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XPathNavigatorSample\XPathNavigatorSample\obj\Debug\XPathNavigatorSample.pdb

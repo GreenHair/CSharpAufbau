@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\ValidationSample\ValidationSample\bin\Debug\ValidationSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\ValidationSample\ValidationSample\bin\Debug\ValidationSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\ValidationSample\ValidationSample\bin\Debug\ValidationSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\ValidationSample\ValidationSample\obj\Debug\ValidationSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\ValidationSample\ValidationSample\obj\Debug\ValidationSample.pdb

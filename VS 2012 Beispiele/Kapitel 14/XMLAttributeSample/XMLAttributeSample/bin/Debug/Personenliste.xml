@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<PersonenListe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Listenbezeichner>Teilnehmerliste</Listenbezeichner>
+  <PersonenArray>
+    <PersonObjekt PersID="117">
+      <Name>Peter</Name>
+      <Wohnort>Berlin</Wohnort>
+      <Alter>45</Alter>
+    </PersonObjekt>
+    <PersonObjekt>
+      <Name>Franz-Josef</Name>
+      <Wohnort>Aschaffenburg</Wohnort>
+      <Alter>0</Alter>
+    </PersonObjekt>
+  </PersonenArray>
+</PersonenListe>

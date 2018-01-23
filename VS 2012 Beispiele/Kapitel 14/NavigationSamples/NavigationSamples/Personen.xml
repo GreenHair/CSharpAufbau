@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Personen>
+  <Person>
+    <Name>Fischer</Name>
+    <Vorname>Manfred</Vorname>
+    <Alter>45</Alter>
+    <Adresse Ort="Aachen" Strasse="Gasse 1"></Adresse>
+  </Person>
+  <Kunde>
+    <Name>Tollsoft AG</Name>
+  </Kunde>
+  <Person>
+    <Name>Meier</Name>
+    <Vorname>Franz</Vorname>
+    <Alter>76</Alter>
+    <Adresse Ort="Ulm" Strasse="Avenue 12"></Adresse>
+  </Person>
+  <Person>
+    <Name>Schmidt</Name>
+    <Vorname>Detlef</Vorname>
+    <Alter>28</Alter>
+    <Adresse Ort="Bonn" Strasse="Weg 34"></Adresse>
+  </Person>
+</Personen>
+

@@ -1,0 +1,9 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\bin\Debug\XmlReaderSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\bin\Debug\XmlReaderSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\bin\Debug\XmlReaderSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\obj\Debug\XmlReaderSample.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\obj\Debug\XmlReaderSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlReaderSample\XmlReaderSample\obj\Debug\XmlReaderSample.pdb
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlReaderSample\XmlReaderSample\bin\Debug\XmlReaderSample.exe.config
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlReaderSample\XmlReaderSample\obj\Debug\XmlReaderSample.exe
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlReaderSample\XmlReaderSample\obj\Debug\XmlReaderSample.pdb

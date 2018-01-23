@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Personen>
+	<Person>
+		<Vorname>Manfred</Vorname>
+		<Zuname>Fischer
+		  <Geschlecht>Männlich</Geschlecht>
+		</Zuname>
+		<Alter>45</Alter>
+		<Adresse Ort="Bonn" Strasse="Neuestr.34"></Adresse>
+	</Person>
+	<Person>
+		<Vorname>Klaus</Vorname>
+		<Zuname>Meier
+			<Geschlecht>Männlich</Geschlecht>
+		</Zuname>
+		<Alter>20</Alter>
+		<Adresse Ort="Köln" Strasse="Bahnhofstr.6"></Adresse>
+	</Person>
+	<Person>
+		<Vorname>Petra</Vorname>
+		<Zuname>Schmidt
+			<Geschlecht>Weiblich</Geschlecht>
+		</Zuname>
+		<Alter>43</Alter>
+		<Adresse Ort="Düsseldorf" Strasse="Sauerteig 18"></Adresse>
+	</Person>
+	<Person>
+		<Vorname>Rolf</Vorname>
+		<Zuname>
+			Klose
+			<Geschlecht>Männlich</Geschlecht>
+		</Zuname>
+		<Alter>66</Alter>
+		<Adresse Ort="Frankfurt" Strasse="Hanauerstr.78"></Adresse>
+	</Person>
+</Personen>

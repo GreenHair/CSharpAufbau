@@ -1,0 +1,6 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\bin\Debug\UsingXmlData.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\bin\Debug\UsingXmlData.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\bin\Debug\UsingXmlData.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\obj\Debug\UsingXmlData.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\obj\Debug\UsingXmlData.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\UsingXmlData\UsingXmlData\obj\Debug\UsingXmlData.pdb

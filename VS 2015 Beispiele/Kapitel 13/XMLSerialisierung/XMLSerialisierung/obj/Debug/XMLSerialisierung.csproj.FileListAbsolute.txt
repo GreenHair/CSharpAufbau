@@ -1,0 +1,15 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.csprojResolveAssemblyReference.cache
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.exe.config
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\bin\Debug\XMLSerialisierung.exe.config
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.exe
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\XMLSerialisierung\XMLSerialisierung\obj\Debug\XMLSerialisierung.pdb

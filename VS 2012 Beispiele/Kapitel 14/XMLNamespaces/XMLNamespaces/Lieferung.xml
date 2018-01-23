@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Lieferung xmlns:customer="http://www.MyCompany.de" 
+					 xmlns:product="http://www.MyCompany.de/products"
+					 xmlns="http://MyDefaultNamespace">
+	<Kunde>
+		<customer:Konto>
+			<customer:KtoNummer>25027</customer:KtoNummer>
+			<customer:Bank BLZ="0815"></customer:Bank>/>
+		</customer:Konto>
+	</Kunde >
+	<product:Artikel>
+		<product:Bank>
+			<ArtNummer>12345</ArtNummer>
+			<Farbe>braun</Farbe>
+		</product:Bank>
+	</product:Artikel>
+</Lieferung>
+

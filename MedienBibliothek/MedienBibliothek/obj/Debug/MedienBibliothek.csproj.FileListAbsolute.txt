@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\bin\Debug\MedienBibliothek.exe.config
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\bin\Debug\MedienBibliothek.exe
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\bin\Debug\MedienBibliothek.pdb
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\obj\Debug\MedienBibliothek.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\obj\Debug\MedienBibliothek.exe
+D:\CSharp Aufbau\MedienBibliothek\MedienBibliothek\obj\Debug\MedienBibliothek.pdb

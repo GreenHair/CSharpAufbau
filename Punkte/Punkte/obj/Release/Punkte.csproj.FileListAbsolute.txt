@@ -1,0 +1,5 @@
+D:\CSharp Aufbau\Punkte\Punkte\bin\Release\Punkte.exe.config
+D:\CSharp Aufbau\Punkte\Punkte\bin\Release\Punkte.exe
+D:\CSharp Aufbau\Punkte\Punkte\bin\Release\Punkte.pdb
+D:\CSharp Aufbau\Punkte\Punkte\obj\Release\Punkte.exe
+D:\CSharp Aufbau\Punkte\Punkte\obj\Release\Punkte.pdb

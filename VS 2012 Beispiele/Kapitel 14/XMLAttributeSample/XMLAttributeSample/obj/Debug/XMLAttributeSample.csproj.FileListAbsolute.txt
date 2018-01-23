@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLAttributeSample\XMLAttributeSample\bin\Debug\XMLAttributeSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLAttributeSample\XMLAttributeSample\bin\Debug\XMLAttributeSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLAttributeSample\XMLAttributeSample\bin\Debug\XMLAttributeSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLAttributeSample\XMLAttributeSample\obj\Debug\XMLAttributeSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLAttributeSample\XMLAttributeSample\obj\Debug\XMLAttributeSample.pdb

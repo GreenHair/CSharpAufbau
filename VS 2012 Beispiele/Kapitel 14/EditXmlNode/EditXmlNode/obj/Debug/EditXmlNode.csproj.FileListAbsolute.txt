@@ -1,0 +1,6 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\bin\Debug\EditXmlNode.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\bin\Debug\EditXmlNode.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\bin\Debug\EditXmlNode.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\obj\Debug\EditXmlNode.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\obj\Debug\EditXmlNode.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\EditXmlNode\EditXmlNode\obj\Debug\EditXmlNode.pdb

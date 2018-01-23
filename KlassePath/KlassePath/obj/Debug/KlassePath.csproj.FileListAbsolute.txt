@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\KlassePath\KlassePath\bin\Debug\KlassePath.exe.config
+D:\CSharp Aufbau\KlassePath\KlassePath\bin\Debug\KlassePath.exe
+D:\CSharp Aufbau\KlassePath\KlassePath\bin\Debug\KlassePath.pdb
+D:\CSharp Aufbau\KlassePath\KlassePath\obj\Debug\KlassePath.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\KlassePath\KlassePath\obj\Debug\KlassePath.exe
+D:\CSharp Aufbau\KlassePath\KlassePath\obj\Debug\KlassePath.pdb

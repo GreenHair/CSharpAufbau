@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Liste von Personen-->
+<Personen>
+	<Person>
+		<Befehl><![CDATA[Ich stehe unter CDATA]]></Befehl>
+		<Vorname>Manfred</Vorname>
+		<Telefon/>
+		<Zuname>Fischer</Zuname>
+		<Alter>45</Alter>
+		<Adresse Ort="Bonn" Strasse="Neuestr.34"></Adresse>
+	</Person>
+</Personen>

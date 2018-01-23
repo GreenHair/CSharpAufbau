@@ -1,0 +1,1 @@
+D:\CSharp Aufbau\BinärStreamDatei\BinärStreamDatei\bin\Debug\BinärStreamDatei.exe.config

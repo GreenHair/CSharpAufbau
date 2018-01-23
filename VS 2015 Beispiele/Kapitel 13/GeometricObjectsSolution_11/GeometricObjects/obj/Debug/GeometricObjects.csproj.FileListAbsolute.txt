@@ -1,0 +1,18 @@
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe.config
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.pdb
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.csprojResolveAssemblyReference.cache
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.exe
+C:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe.config
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe.config
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.exe
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.pdb
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.exe
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\bin\Debug\GeometricObjects.pdb
+D:\CSharp Aufbau\VS 2015 Beispiele\Kapitel 13\GeometricObjectsSolution_11\GeometricObjects\obj\Debug\GeometricObjects.csprojResolveAssemblyReference.cache

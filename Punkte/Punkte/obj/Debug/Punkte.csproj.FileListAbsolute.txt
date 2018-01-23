@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\Punkte\Punkte\bin\Debug\Punkte.exe.config
+D:\CSharp Aufbau\Punkte\Punkte\bin\Debug\Punkte.exe
+D:\CSharp Aufbau\Punkte\Punkte\bin\Debug\Punkte.pdb
+D:\CSharp Aufbau\Punkte\Punkte\obj\Debug\Punkte.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\Punkte\Punkte\obj\Debug\Punkte.exe
+D:\CSharp Aufbau\Punkte\Punkte\obj\Debug\Punkte.pdb

@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\UebungPKW\UebungPKW\bin\Debug\UebungPKW.exe.config
+D:\CSharp Aufbau\UebungPKW\UebungPKW\bin\Debug\UebungPKW.exe
+D:\CSharp Aufbau\UebungPKW\UebungPKW\bin\Debug\UebungPKW.pdb
+D:\CSharp Aufbau\UebungPKW\UebungPKW\obj\Debug\UebungPKW.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\UebungPKW\UebungPKW\obj\Debug\UebungPKW.exe
+D:\CSharp Aufbau\UebungPKW\UebungPKW\obj\Debug\UebungPKW.pdb

@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\bin\Debug\PKW_XMLSerialisiert.exe.config
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\bin\Debug\PKW_XMLSerialisiert.exe
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\bin\Debug\PKW_XMLSerialisiert.pdb
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\obj\Debug\PKW_XMLSerialisiert.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\obj\Debug\PKW_XMLSerialisiert.exe
+D:\CSharp Aufbau\PKW_XMLSerialisiert\PKW_XMLSerialisiert\obj\Debug\PKW_XMLSerialisiert.pdb

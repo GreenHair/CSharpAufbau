@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\bin\Debug\SerialisierungBinaryFormatter.exe.config
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\bin\Debug\SerialisierungBinaryFormatter.exe
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\bin\Debug\SerialisierungBinaryFormatter.pdb
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\obj\Debug\SerialisierungBinaryFormatter.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\obj\Debug\SerialisierungBinaryFormatter.exe
+D:\CSharp Aufbau\SerialisierungBinaryFormatter\SerialisierungBinaryFormatter\obj\Debug\SerialisierungBinaryFormatter.pdb

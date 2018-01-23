@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\bin\Debug\PkwSerialized.exe.config
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\bin\Debug\PkwSerialized.exe
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\bin\Debug\PkwSerialized.pdb
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\obj\Debug\PkwSerialized.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\obj\Debug\PkwSerialized.exe
+D:\CSharp Aufbau\PkwSerialized\PkwSerialized\obj\Debug\PkwSerialized.pdb

@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterWithNamespaces\XmlWriterWithNamespaces\bin\Debug\XmlWriterWithNamespaces.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterWithNamespaces\XmlWriterWithNamespaces\bin\Debug\XmlWriterWithNamespaces.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterWithNamespaces\XmlWriterWithNamespaces\bin\Debug\XmlWriterWithNamespaces.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterWithNamespaces\XmlWriterWithNamespaces\obj\Debug\XmlWriterWithNamespaces.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterWithNamespaces\XmlWriterWithNamespaces\obj\Debug\XmlWriterWithNamespaces.pdb

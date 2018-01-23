@@ -1,0 +1,12 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.pdb
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.exe.config
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.exe
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.pdb
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.exe
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\bin\Debug\XmlWriterSample.pdb
+D:\CSharp Aufbau\VS 2012 Beispiele\Kapitel 14\XmlWriterSample\XmlWriterSample\obj\Debug\XmlWriterSample.csprojResolveAssemblyReference.cache

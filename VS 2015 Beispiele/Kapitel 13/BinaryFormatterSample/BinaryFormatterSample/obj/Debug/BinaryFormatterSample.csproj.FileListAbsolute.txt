@@ -1,0 +1,12 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.exe.config
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.exe
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\bin\Debug\BinaryFormatterSample.pdb
+D:\Eigene Bücher\VISUAL STUDIO 2015\VISUAL STUDIO 2015 (BUCH)\Beispiele\Kapitel 13\BinaryFormatterSample\BinaryFormatterSample\obj\Debug\BinaryFormatterSample.csprojResolveAssemblyReference.cache

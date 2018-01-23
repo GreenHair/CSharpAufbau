@@ -1,0 +1,14 @@
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\bin\Debug\DateiExplorer.exe.config
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\bin\Debug\DateiExplorer.exe
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\bin\Debug\DateiExplorer.pdb
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\MainWindow.g.cs
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\App.g.cs
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer_MarkupCompile.cache
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer_MarkupCompile.lref
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\MainWindow.baml
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.g.resources
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.Properties.Resources.resources
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.csproj.GenerateResource.Cache
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.exe
+D:\CSharp Aufbau\DateiExplorer\DateiExplorer\obj\Debug\DateiExplorer.pdb

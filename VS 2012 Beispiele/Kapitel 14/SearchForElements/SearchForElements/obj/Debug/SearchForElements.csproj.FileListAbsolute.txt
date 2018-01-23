@@ -1,0 +1,5 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SearchForElements\SearchForElements\bin\Debug\SearchForElements.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SearchForElements\SearchForElements\bin\Debug\SearchForElements.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SearchForElements\SearchForElements\bin\Debug\SearchForElements.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SearchForElements\SearchForElements\obj\Debug\SearchForElements.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\SearchForElements\SearchForElements\obj\Debug\SearchForElements.pdb

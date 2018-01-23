@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\bin\Debug\DateiFileStream.exe.config
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\bin\Debug\DateiFileStream.exe
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\bin\Debug\DateiFileStream.pdb
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\obj\Debug\DateiFileStream.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\obj\Debug\DateiFileStream.exe
+D:\CSharp Aufbau\DateiFileStream\DateiFileStream\obj\Debug\DateiFileStream.pdb

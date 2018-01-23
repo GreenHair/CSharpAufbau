@@ -1,0 +1,6 @@
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\bin\Debug\ArbeitenMitDateien.exe.config
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\bin\Debug\ArbeitenMitDateien.exe
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\bin\Debug\ArbeitenMitDateien.pdb
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\obj\Debug\ArbeitenMitDateien.csprojResolveAssemblyReference.cache
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\obj\Debug\ArbeitenMitDateien.exe
+D:\CSharp Aufbau\ArbeitenMitDateien\ArbeitenMitDateien\obj\Debug\ArbeitenMitDateien.pdb

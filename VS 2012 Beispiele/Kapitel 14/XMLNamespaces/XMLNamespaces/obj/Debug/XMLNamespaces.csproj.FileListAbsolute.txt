@@ -1,0 +1,6 @@
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\bin\Debug\XMLNamespaces.exe.config
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\bin\Debug\XMLNamespaces.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\bin\Debug\XMLNamespaces.pdb
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\obj\Debug\XMLNamespaces.csprojResolveAssemblyReference.cache
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\obj\Debug\XMLNamespaces.exe
+D:\Visual C# 2012 Buch 1\Beispiele Visual Studio 2012\Kapitel 14\XMLNamespaces\XMLNamespaces\obj\Debug\XMLNamespaces.pdb
