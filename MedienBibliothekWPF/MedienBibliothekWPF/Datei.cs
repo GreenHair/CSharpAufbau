@@ -15,7 +15,7 @@ namespace MedienBibliothek
     {
         static FileStream stream;
         static BinaryFormatter binFormatter;
-        public static string pfad = @"D:\CSharp Aufbau\MedienBibliothekWPF\MedienBibliothekWPF\bestand.dat";
+        public static string pfad = @"..\..\bestand.dat";
 
         public static void Speichern(List<Medien> bestandsliste)
         {
