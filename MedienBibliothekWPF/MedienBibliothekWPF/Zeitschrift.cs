@@ -52,5 +52,11 @@ namespace MedienBibliothek
                 mag.Titel, mag.Themen, mag.Nr, mag.Erscheinungsjahr);
             return str;
         }
+
+        public override string ToString()
+        {
+            return string.Format("Zeitschrift:\nTitel: {0}\tThemen: {1}\tNummer: {2}\tJahr: {3}",
+                Titel, Themen, Nr, Erscheinungsjahr);
+        }
     }
 }

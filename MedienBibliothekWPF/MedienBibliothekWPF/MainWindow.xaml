@@ -6,7 +6,27 @@
         xmlns:local="clr-namespace:MedienBibliothekWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Bottom" Height="Auto" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Name="btnBeenden" Width="80" Margin="5" Click="btnBeenden_Click">Beenden</Button>
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="11"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Background="Black" Foreground="WhiteSmoke">Liste aller Medien</Label>
+            <ListBox Name="lstMedien" Margin="5,5" Grid.Row="1" Grid.Column="0" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <Button Name="btnNeu" Margin="5" Click="btnNeu_Click">Neu</Button>
+                <Button Name="btnBearbeiten" Margin="5" IsEnabled="False">Bearbeiten</Button>
+                <Button Name="btnLoeschen" Margin="5" IsEnabled="False">Löschen</Button>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
 </Window>

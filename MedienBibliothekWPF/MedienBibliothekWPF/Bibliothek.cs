@@ -35,5 +35,19 @@ namespace MedienBibliothek
                 _bestand.Add(medien);
             }
         }
+
+        public List<Medien> SortiertNachTyp()
+        {
+            List<Medien> sortList = new List<Medien>();
+            var sortiert = from medium in _bestand group medium by medium.GetType();
+            foreach (var item in sortiert)
+            {
+                foreach (var element in item)
+                {
+                    sortList.Add(element);
+                }
+            }
+            return sortList;
+        }
     }
 }

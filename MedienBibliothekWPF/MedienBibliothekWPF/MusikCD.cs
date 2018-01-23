@@ -36,5 +36,10 @@ namespace MedienBibliothek
             str += string.Format("Titel: {0}\tInterpret: {1}\tJahr: {2}", cd.Titel, cd.Interpret, cd.Erscheinungsjahr);
             return str;
         }
+
+        public override string ToString()
+        {
+            return string.Format("CD:\nTitel: {0}\tInterpret: {1}\tJahr: {2}", Titel, Interpret, Erscheinungsjahr);
+        }
     }
 }

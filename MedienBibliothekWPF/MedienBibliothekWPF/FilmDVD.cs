@@ -37,5 +37,11 @@ namespace MedienBibliothek
                 dvd.Titel, dvd.Hauptdarsteller, dvd.Erscheinungsjahr);
             return str;
         }
+
+        public override string ToString()
+        {
+            return string.Format("DVD:\nTitel: {0}\tHauptdarsteller: {1}\tJahr: {2}",
+                Titel, Hauptdarsteller, Erscheinungsjahr);
+        }
     }
 }

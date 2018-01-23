@@ -51,5 +51,11 @@ namespace MedienBibliothek
                 buch.Titel, buch.Verfasser, buch.Verlag, buch.Erscheinungsjahr);
             return str;
         }
+
+        public override string ToString()
+        {
+            return string.Format("Buch:\nTitel: {0}\tAuthor: {1}\tVerlag: {2}\tJahr: {3}",
+                Titel,Verfasser,Verlag,Erscheinungsjahr);
+        }
     }
 }

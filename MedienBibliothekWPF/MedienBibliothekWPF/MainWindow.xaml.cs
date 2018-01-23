@@ -21,26 +21,43 @@ namespace MedienBibliothekWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        Bibliothek myLib;
         public MainWindow()
         {
             InitializeComponent();
-            Bibliothek myLib = new Bibliothek();
+            myLib = new Bibliothek();
             myLib.Bestand = Datei.Laden();
-            
-            //Anzeigen(myLib.Bestand, textBox);
+            lstMedien.ItemsSource = myLib.SortiertNachTyp();
             
         }
 
-        static void Anzeigen(List<Medien> bestand, TextBox tBox)
+        //static void Anzeigen(List<Medien> bestand, TextBox tBox)
+        //{
+        //    var sortiert = from medium in bestand group medium by medium.GetType();
+        //    foreach (var item in sortiert)
+        //    {
+        //        foreach (var element in item)
+        //        {
+        //            tBox.AppendText(element.Anzeigen(element));
+        //        }
+        //    }
+        //}
+
+        private void lstMedien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var sortiert = from medium in bestand group medium by medium.GetType();
-            foreach (var item in sortiert)
-            {
-                foreach (var element in item)
-                {
-                    tBox.AppendText(element.Anzeigen(element));
-                }
-            }
+            btnBearbeiten.IsEnabled = true;
+            btnLoeschen.IsEnabled = true;
+        }
+
+        private void btnNeu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBeenden_Click(object sender, RoutedEventArgs e)
+        {
+            Datei.Speichern(myLib.Bestand);
+            this.Close();
         }
     }
 }
