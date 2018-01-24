@@ -59,5 +59,30 @@ namespace MedienBibliothekWPF
             Datei.Speichern(myLib.Bestand);
             this.Close();
         }
+
+        private void cmbTyp_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btnSpeichern_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAbbrechen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBearbeiten_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLoeschen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
