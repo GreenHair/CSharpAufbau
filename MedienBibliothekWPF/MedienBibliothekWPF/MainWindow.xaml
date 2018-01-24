@@ -16,14 +16,27 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition Height="11"></RowDefinition>
             </Grid.RowDefinitions>
-            <StackPanel Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" Visibility="Visible" Name="stckListe">
-                <Label Background="Black" Foreground="WhiteSmoke">Liste aller Medien</Label>
-                <ListBox Name="lstMedien" Margin="5,5" MinHeight="240" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
-            </StackPanel>
+            <DockPanel Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" Visibility="Visible" Name="stckListe">
+                <Label DockPanel.Dock="Top" Background="Black" Foreground="WhiteSmoke">Liste aller Medien</Label>
+                <TabControl>
+                    <TabItem Header="Bücher">
+                        <ListBox Name="lstMedien" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+                    </TabItem>
+                    <TabItem Header="CD's">
+                        <ListBox Name="lstCDs" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+                    </TabItem>
+                    <TabItem Header="DVD's">
+                        <ListBox Name="lstDVDs" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+                    </TabItem>
+                    <TabItem Header="Zeitschriften">
+                        <ListBox Name="lstMags" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
             <StackPanel Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" Visibility="Collapsed" Name="stckEingabe">
                 <Label Background="Black" Foreground="WhiteSmoke">Medium erfassen</Label>
                 <Grid>
@@ -44,7 +57,7 @@
                     <Label Grid.Column="0" Grid.Row="3" Name="lblAutor">Autor</Label>
                     <Label Grid.Column="0" Grid.Row="4" Name="lblVerlag" Visibility="Visible">Verlag</Label>
                     <ComboBox Grid.Column="1" Grid.Row="0" Name="cmbTyp" SelectionChanged="cmbTyp_SelectionChanged">
-                        <ComboBoxItem>Buch</ComboBoxItem>
+                        <ComboBoxItem Name="cmbItemBuch">Buch</ComboBoxItem>
                         <ComboBoxItem>CD</ComboBoxItem>
                         <ComboBoxItem>DVD</ComboBoxItem>
                         <ComboBoxItem>Zeitschrift</ComboBoxItem>

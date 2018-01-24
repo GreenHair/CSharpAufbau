@@ -28,25 +28,29 @@ namespace MedienBibliothekWPF
             myLib = new Bibliothek();
             myLib.Bestand = Datei.Laden();
             lstMedien.ItemsSource = myLib.SortiertNachTyp();
-            
+            lstCDs.ItemsSource = (from cd in myLib.Bestand where cd.GetType() == typeof(MusikCD) select cd).ToList();
+            lstDVDs.ItemsSource = (from dvd in myLib.Bestand where dvd.GetType() == typeof(FilmDVD) select dvd).ToList();
+            lstMags.ItemsSource = (from mag in myLib.Bestand where mag.GetType() == typeof(Zeitschrift) select mag).ToList();
+
         }
 
-        //static void Anzeigen(List<Medien> bestand, TextBox tBox)
-        //{
-        //    var sortiert = from medium in bestand group medium by medium.GetType();
-        //    foreach (var item in sortiert)
-        //    {
-        //        foreach (var element in item)
-        //        {
-        //            tBox.AppendText(element.Anzeigen(element));
-        //        }
-        //    }
-        //}
+        static void Anzeigen(List<Medien> bestand, TextBox tBox)
+        {
+            var sortiert = from medium in bestand group medium by medium.GetType();
+            foreach (var item in sortiert)
+            {
+                foreach (var element in item)
+                {
+                    tBox.AppendText(element.Anzeigen(element));
+                }
+            }
+        }
 
         private void lstMedien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             btnBearbeiten.IsEnabled = true;
             btnLoeschen.IsEnabled = true;
+            btnAbbrechen.IsEnabled = true;
         }
 
         private void btnNeu_Click(object sender, RoutedEventArgs e)
@@ -55,6 +59,7 @@ namespace MedienBibliothekWPF
             stckEingabe.Visibility = Visibility.Visible;
             btnAbbrechen.IsEnabled = true;
             btnSpeichern.IsEnabled = true;
+            cmbItemBuch.IsSelected = true;
         }
 
         private void btnBeenden_Click(object sender, RoutedEventArgs e)
@@ -126,7 +131,7 @@ namespace MedienBibliothekWPF
                 int nummer = Convert.ToInt32(txtVerlag.Text);
                 myLib.Hinzufuegen(new Zeitschrift(themen, nummer, titel, jahr));
             }
-            lstMedien.ItemsSource = myLib.Bestand;
+            lstMedien.ItemsSource = myLib.SortiertNachTyp();
             btnAbbrechen_Click(sender, e);
         }
 
@@ -136,6 +141,17 @@ namespace MedienBibliothekWPF
             stckEingabe.Visibility = Visibility.Collapsed;
             btnAbbrechen.IsEnabled = false;
             btnSpeichern.IsEnabled = false;
+            btnBearbeiten.IsEnabled = false;
+            btnLoeschen.IsEnabled = false;
+            TextfelderLoeschen(sender, e);
+        }
+
+        private void TextfelderLoeschen(object sender, RoutedEventArgs e)
+        {
+            txtAutor.Text = "";
+            txtJahr.Text = "";
+            txtTitel.Text = "";
+            txtVerlag.Text = "";
         }
 
         private void btnBearbeiten_Click(object sender, RoutedEventArgs e)
@@ -145,7 +161,9 @@ namespace MedienBibliothekWPF
 
         private void btnLoeschen_Click(object sender, RoutedEventArgs e)
         {
-
+            //lstMedien.ItemsSource = null;
+            myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);
+            lstMedien.ItemsSource = myLib.SortiertNachTyp();
         }
     }
 }

@@ -1,0 +1,22 @@
+﻿<Window x:Class="DatenbindungBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatenbindungBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox Height="25" Margin="10" Name="txtBox" Text="{Binding ElementName=lstBox, Path=SelectedItem.Content}"/>
+        <ListBox Margin="10" Name="lstBox" SelectionChanged="lstBox_Selected" Background="Yellow">
+            <ListBoxItem>Äpfel</ListBoxItem>
+            <ListBoxItem>Bananen</ListBoxItem>
+            <ListBoxItem>Orangen</ListBoxItem>
+            <ListBoxItem>Zitronen</ListBoxItem>
+            <ListBoxItem>Kirschen</ListBoxItem>
+        </ListBox>
+        <Grid>
+            
+        </Grid>
+    </StackPanel>
+</Window>
