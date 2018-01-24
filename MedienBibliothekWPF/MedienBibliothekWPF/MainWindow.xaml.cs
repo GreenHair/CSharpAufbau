@@ -160,8 +160,9 @@ namespace MedienBibliothekWPF
         private void btnLoeschen_Click(object sender, RoutedEventArgs e)
         {
             //lstMedien.ItemsSource = null;
-            myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);
-            //lstMedien.ItemsSource = myLib.SortiertNachTyp();
+            //myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);            
+            Window loeschen = new MediumLoeschen(lstMedien.SelectedItem,myLib.Bestand);
+            loeschen.Show();
             lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);
         }
 
