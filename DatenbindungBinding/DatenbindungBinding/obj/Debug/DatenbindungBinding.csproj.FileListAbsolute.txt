@@ -1,0 +1,13 @@
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\bin\Debug\DatenbindungBinding.exe.config
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\MainWindow.g.cs
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\App.g.cs
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding_MarkupCompile.cache
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding_MarkupCompile.lref
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\bin\Debug\DatenbindungBinding.exe
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\bin\Debug\DatenbindungBinding.pdb
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\MainWindow.baml
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding.g.resources
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding.Properties.Resources.resources
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding.csproj.GenerateResource.Cache
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding.exe
+D:\CSharp Aufbau\DatenbindungBinding\DatenbindungBinding\obj\Debug\DatenbindungBinding.pdb

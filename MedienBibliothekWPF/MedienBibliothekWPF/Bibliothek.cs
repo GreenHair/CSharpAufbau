@@ -38,7 +38,7 @@ namespace MedienBibliothek
 
         public List<Medien> SortiertNachTyp()
         {
-            List<Medien> sortList = new List<Medien>();
+            List<Medien> sortList = new List<Medien>();            
             var sortiert = from medium in _bestand group medium by medium.GetType();
             foreach (var item in sortiert)
             {
