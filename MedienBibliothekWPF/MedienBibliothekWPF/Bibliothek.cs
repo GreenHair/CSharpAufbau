@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,14 +9,14 @@ namespace MedienBibliothek
 {
     public class Bibliothek
     {
-        List<Medien> _bestand;
+        ObservableCollection<Medien> _bestand;
 
         public Bibliothek()
         {
-            _bestand = new List<Medien>();
+            _bestand = new ObservableCollection<Medien>();
         }
 
-        public List<Medien> Bestand
+        public ObservableCollection<Medien> Bestand
         {
             get
             {
@@ -36,9 +37,23 @@ namespace MedienBibliothek
             }
         }
 
-        public List<Medien> SortiertNachTyp()
+        public ObservableCollection<Medien> SortiertNachTyp()
         {
-            List<Medien> sortList = new List<Medien>();            
+            ObservableCollection<Medien> sortList = new ObservableCollection<Medien>();            
+            var sortiert = from medium in _bestand group medium by medium.GetType();
+            foreach (var item in sortiert)
+            {
+                foreach (var element in item)
+                {
+                    sortList.Add(element);
+                }
+            }
+            return sortList;
+        }
+
+        public List<Medien> SortiertNachTypListe()
+        {
+            List<Medien> sortList = new List<Medien>();
             var sortiert = from medium in _bestand group medium by medium.GetType();
             foreach (var item in sortiert)
             {

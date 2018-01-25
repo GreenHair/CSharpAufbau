@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedienBibliothekWPF"
         mc:Ignorable="d"
-        Title="Medium Löschen" Height="300" Width="300">
+        Title="Medium Löschen" Height="200" Width="300">
     <DockPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Right">
             <Button Name="abbrechen" Width="100" Margin="10" Click="abbrechen_Click">Abbrechen</Button>
             <Button Name="loeschen" Width="100" Margin="10" Click="loeschen_Click">Löschen</Button>
         </StackPanel>
-        <TextBox Name="message" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
-                 Background="AntiqueWhite" TextWrapping="Wrap" IsReadOnly="True"/>
+        <TextBox Name="message" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="20"
+                 Background="AntiqueWhite" TextWrapping="Wrap" IsReadOnly="True" Text="Test"/>
     </DockPanel>
 </Window>
