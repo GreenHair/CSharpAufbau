@@ -27,7 +27,7 @@
                         <ListBox Name="lstMedien" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
                     </TabItem>
                     <TabItem Header="CD's">
-                        <ListBox Name="lstCDs" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
+                        <ListView Name="lstCDs" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListView>
                     </TabItem>
                     <TabItem Header="DVD's">
                         <ListBox Name="lstDVDs" Margin="5,5" MinHeight="200" Height="auto" Background="WhiteSmoke" SelectionChanged="lstMedien_SelectionChanged"></ListBox>
