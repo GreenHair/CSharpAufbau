@@ -183,16 +183,20 @@ namespace MedienBibliothekWPF
                     temp = myLib.SortiertNachTyp();
                     break;
                 case 1:
-                    temp = (from book in myLib.Bestand where book.GetType() == typeof(Buch) select book).ToList();
+                    temp = (from book in myLib.Bestand where book.GetType() == typeof(Buch)
+                            orderby book.Titel select book).ToList();
                     break;
                 case 2:
-                    temp = (from cd in myLib.Bestand where cd.GetType() == typeof(MusikCD) select cd).ToList();
+                    temp = (from cd in myLib.Bestand where cd.GetType() == typeof(MusikCD)
+                            orderby cd.Titel select cd).ToList();
                     break;
                 case 3:
-                    temp = (from dvd in myLib.Bestand where dvd.GetType() == typeof(FilmDVD) select dvd).ToList();
+                    temp = (from dvd in myLib.Bestand where dvd.GetType() == typeof(FilmDVD)
+                            orderby dvd.Titel select dvd).ToList();
                     break;
                 case 4:
-                    temp = (from mag in myLib.Bestand where mag.GetType() == typeof(Zeitschrift) select mag).ToList();
+                    temp = (from mag in myLib.Bestand where mag.GetType() == typeof(Zeitschrift)
+                            orderby mag.Titel select mag).ToList();
                     break;
             }
             return temp;
