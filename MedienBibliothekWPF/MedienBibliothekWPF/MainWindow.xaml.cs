@@ -28,9 +28,7 @@ namespace MedienBibliothekWPF
             myLib = new Bibliothek();
             myLib.Bestand = Datei.Laden();
             lstMedien.ItemsSource = myLib.SortiertNachTyp();
-            lstCDs.ItemsSource = (from cd in myLib.Bestand where cd.GetType() == typeof(MusikCD) select cd).ToList();
-            lstDVDs.ItemsSource = (from dvd in myLib.Bestand where dvd.GetType() == typeof(FilmDVD) select dvd).ToList();
-            lstMags.ItemsSource = (from mag in myLib.Bestand where mag.GetType() == typeof(Zeitschrift) select mag).ToList();
+            
 
         }
 
@@ -131,7 +129,7 @@ namespace MedienBibliothekWPF
                 int nummer = Convert.ToInt32(txtVerlag.Text);
                 myLib.Hinzufuegen(new Zeitschrift(themen, nummer, titel, jahr));
             }
-            lstMedien.ItemsSource = myLib.SortiertNachTyp();
+            lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);
             btnAbbrechen_Click(sender, e);
         }
 
@@ -162,8 +160,42 @@ namespace MedienBibliothekWPF
         private void btnLoeschen_Click(object sender, RoutedEventArgs e)
         {
             //lstMedien.ItemsSource = null;
-            myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);
-            lstMedien.ItemsSource = myLib.SortiertNachTyp();
+            //myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);            
+            Window loeschen = new MediumLoeschen(lstMedien.SelectedItem,myLib.Bestand);
+            loeschen.Show();
+            lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);
+        }
+
+        private void cmbMedium_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (lstMedien != null)
+            {
+                lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);                
+            }
+        }
+
+        private List<Medien> SelectedList(int index)
+        {
+            List<Medien> temp = null;
+            switch (index)
+            {
+                case 0:
+                    temp = myLib.SortiertNachTyp();
+                    break;
+                case 1:
+                    temp = (from book in myLib.Bestand where book.GetType() == typeof(Buch) select book).ToList();
+                    break;
+                case 2:
+                    temp = (from cd in myLib.Bestand where cd.GetType() == typeof(MusikCD) select cd).ToList();
+                    break;
+                case 3:
+                    temp = (from dvd in myLib.Bestand where dvd.GetType() == typeof(FilmDVD) select dvd).ToList();
+                    break;
+                case 4:
+                    temp = (from mag in myLib.Bestand where mag.GetType() == typeof(Zeitschrift) select mag).ToList();
+                    break;
+            }
+            return temp;
         }
     }
 }

@@ -26,3 +26,5 @@ C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothe
 C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.g.resources
 C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.Properties.Resources.resources
 C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MedienBibliothekWPF.csproj.GenerateResource.Cache
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MediumLoeschen.g.cs
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\MedienBibliothekWPF\MedienBibliothekWPF\obj\Debug\MediumLoeschen.baml
