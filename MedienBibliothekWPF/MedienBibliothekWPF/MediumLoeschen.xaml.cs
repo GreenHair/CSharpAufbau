@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +20,9 @@ namespace MedienBibliothekWPF
     /// </summary>
     public partial class MediumLoeschen : Window
     {
-        List<MedienBibliothek.Medien> liste;
+        ObservableCollection<MedienBibliothek.Medien> liste;
         MedienBibliothek.Medien medium;
-        public MediumLoeschen(object _medium, List<MedienBibliothek.Medien> _liste)
+        public MediumLoeschen(object _medium, ObservableCollection<MedienBibliothek.Medien> _liste)
         {
             InitializeComponent();
             liste = _liste;

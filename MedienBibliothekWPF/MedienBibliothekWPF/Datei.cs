@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using MedienBibliothekWPF;
+using System.Collections.ObjectModel;
 
 namespace MedienBibliothek
 {
@@ -17,7 +18,7 @@ namespace MedienBibliothek
         static BinaryFormatter binFormatter;
         public static string pfad = @"..\..\bestand.dat";
 
-        public static void Speichern(List<Medien> bestandsliste)
+        public static void Speichern(ObservableCollection<Medien> bestandsliste)
         {
             stream = new FileStream(pfad, FileMode.Create);
             binFormatter = new BinaryFormatter();
@@ -25,9 +26,9 @@ namespace MedienBibliothek
             stream.Close();
         }
 
-        public static List<Medien> Laden()
+        public static ObservableCollection<Medien> Laden()
         {
-            List<Medien> temp = null;
+            ObservableCollection<Medien> temp = null;
             try
             {
                 stream = new FileStream(pfad, FileMode.Open);
@@ -39,7 +40,7 @@ namespace MedienBibliothek
             try
             {
                 binFormatter = new BinaryFormatter();            
-                temp = (List<Medien>)binFormatter.Deserialize(stream);
+                temp = (ObservableCollection<Medien>)binFormatter.Deserialize(stream);
                 stream.Close();
             }
             catch (SerializationException e)
