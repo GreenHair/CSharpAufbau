@@ -226,7 +226,6 @@ namespace MedienBibliothekWPF
             bind.Source = selectedItem; bind.Mode = BindingMode.OneTime;
             txtAutor.SetBinding(TextBox.TextProperty, bind);
             cmbTyp.SelectedIndex = 1;
-           // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
         }
 
         private void BearbeitenDVD(FilmDVD selectedItem)
