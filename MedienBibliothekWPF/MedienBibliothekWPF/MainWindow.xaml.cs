@@ -37,21 +37,7 @@ namespace MedienBibliothekWPF
         {
             lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);
         }
-
-        //static void Anzeigen(List<Medien> bestand, TextBox tBox)
-        //{
-        //    var sortiert = from medium in bestand
-        //                   group medium by medium.GetType() into medienGruppe
-        //                   select (from medien in medienGruppe select medien).ToList();
-        //    foreach (var item in sortiert)
-        //    {
-        //        foreach (var element in item)
-        //        {
-        //            tBox.AppendText(element.Anzeigen(element));
-        //        }
-        //    }
-        //}
-
+        
         private void lstMedien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             btnBearbeiten.IsEnabled = true;
@@ -62,12 +48,15 @@ namespace MedienBibliothekWPF
         private void btnNeu_Click(object sender, RoutedEventArgs e)
         {
             stckListe.Visibility = Visibility.Collapsed;
-            stckAendern.Visibility = Visibility.Collapsed;
             stckEingabe.Visibility = Visibility.Visible;
+            btnUebernehmen.Visibility = Visibility.Collapsed;
             btnAbbrechen.IsEnabled = true;
             btnSpeichern.IsEnabled = true;
             btnNeu.IsEnabled = false;
             cmbItemBuch.IsSelected = true;
+            lblTyp.Visibility = Visibility.Visible;
+            cmbTyp.Visibility = Visibility.Visible;
+            lblErfassenAendern.Content = "Erfassen";
         }
 
         private void btnBeenden_Click(object sender, RoutedEventArgs e)
@@ -147,7 +136,6 @@ namespace MedienBibliothekWPF
         {
             stckListe.Visibility = Visibility.Visible;
             stckEingabe.Visibility = Visibility.Collapsed;
-            stckAendern.Visibility = Visibility.Collapsed;
             btnAbbrechen.IsEnabled = false;
             btnSpeichern.IsEnabled = false;
             btnBearbeiten.IsEnabled = false;
@@ -167,38 +155,42 @@ namespace MedienBibliothekWPF
         private void btnBearbeiten_Click(object sender, RoutedEventArgs e)
         {
             stckListe.Visibility = Visibility.Collapsed;
-            stckAendern.Visibility = Visibility.Visible;
+            stckEingabe.Visibility = Visibility.Visible;
+            lblErfassenAendern.Content = "Ändern";
+            lblTyp.Visibility = Visibility.Hidden;
+            cmbTyp.Visibility = Visibility.Hidden;
             btnLoeschen.IsEnabled = false;
             btnBearbeiten.IsEnabled = false;
-            btnAbbrechen.IsEnabled = true;           
-            if(lstMedien.SelectedItem.GetType() == typeof(Buch))
+            btnAbbrechen.IsEnabled = true;
+            btnUebernehmen.Visibility = Visibility.Visible;
+            if (lstMedien.SelectedItem.GetType() == typeof(Buch))
             {
-                lblPublisher.Visibility = Visibility.Visible;
-                txtPublisher.Visibility = Visibility.Visible;
-                lblVerfasser.Content = "Autor";
-                lblPublisher.Content = "Verlag";
+                lblVerlag.Visibility = Visibility.Visible;
+                txtVerlag.Visibility = Visibility.Visible;
+                lblAutor.Content = "Autor";
+                lblVerlag.Content = "Verlag";
                 BearbeitenBuch((Buch)lstMedien.SelectedItem);
             }
             if (lstMedien.SelectedItem.GetType() == typeof(MusikCD))
             {
-                lblPublisher.Visibility = Visibility.Collapsed;
-                txtPublisher.Visibility = Visibility.Collapsed;
-                lblVerfasser.Content = "Interpret";
+                lblVerlag.Visibility = Visibility.Collapsed;
+                txtVerlag.Visibility = Visibility.Collapsed;
+                lblAutor.Content = "Interpret";
                 BearbeitenCD((MusikCD)lstMedien.SelectedItem);
             }
             if (lstMedien.SelectedItem.GetType() == typeof(FilmDVD))
             {
-                lblPublisher.Visibility = Visibility.Collapsed;
-                txtPublisher.Visibility = Visibility.Collapsed;
-                lblVerfasser.Content = "Hauptdarsteller";
+                lblVerlag.Visibility = Visibility.Collapsed;
+                txtVerlag.Visibility = Visibility.Collapsed;
+                lblAutor.Content = "Hauptdarsteller";
                 BearbeitenDVD((FilmDVD)lstMedien.SelectedItem);
             }
             if (lstMedien.SelectedItem.GetType() == typeof(Zeitschrift))
             {
-                lblPublisher.Visibility = Visibility.Visible;
-                txtPublisher.Visibility = Visibility.Visible;
-                lblVerfasser.Content = "Themen";
-                lblPublisher.Content = "Nummer";
+                lblVerlag.Visibility = Visibility.Visible;
+                txtVerlag.Visibility = Visibility.Visible;
+                lblAutor.Content = "Themen";
+                lblVerlag.Content = "Nummer";
                 BearbeitenZeitschrift((Zeitschrift)lstMedien.SelectedItem);
             }
             lstMedien.ItemsSource = SelectedList(cmbMedium.SelectedIndex);
@@ -208,58 +200,66 @@ namespace MedienBibliothekWPF
         {
             Binding bind = new Binding("Titel");
             bind.Source = selectedItem;
-            txtTitle.SetBinding(TextBox.TextProperty, bind);
+            txtTitel.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Erscheinungsjahr");
             bind.Source = selectedItem;
-            txtYear.SetBinding(TextBox.TextProperty, bind);
+            txtJahr.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Verfasser");
             bind.Source = selectedItem;
-            txtVerfasser.SetBinding(TextBox.TextProperty, bind);
+            txtAutor.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Verlag");
             bind.Source = selectedItem;
-            txtPublisher.SetBinding(TextBox.TextProperty, bind);
+            txtVerlag.SetBinding(TextBox.TextProperty, bind);
+            cmbTyp.SelectedIndex = 0;
+           // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
         }
 
         private void BearbeitenCD(MusikCD selectedItem)
         {
             Binding bind = new Binding("Titel");
             bind.Source = selectedItem;
-            txtTitle.SetBinding(TextBox.TextProperty, bind);
+            txtTitel.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Erscheinungsjahr");
             bind.Source = selectedItem;
-            txtYear.SetBinding(TextBox.TextProperty, bind);
+            txtJahr.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Interpret");
             bind.Source = selectedItem;
-            txtVerfasser.SetBinding(TextBox.TextProperty, bind);
+            txtAutor.SetBinding(TextBox.TextProperty, bind);
+            cmbTyp.SelectedIndex = 1;
+           // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
         }
 
         private void BearbeitenDVD(FilmDVD selectedItem)
         {
             Binding bind = new Binding("Titel");
             bind.Source = selectedItem;
-            txtTitle.SetBinding(TextBox.TextProperty, bind);
+            txtTitel.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Erscheinungsjahr");
             bind.Source = selectedItem;
-            txtYear.SetBinding(TextBox.TextProperty, bind);
+            txtJahr.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Hauptdarsteller");
             bind.Source = selectedItem;
-            txtVerfasser.SetBinding(TextBox.TextProperty, bind);
+            txtAutor.SetBinding(TextBox.TextProperty, bind);
+            cmbTyp.SelectedIndex = 2;
+           // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
         }
 
         private void BearbeitenZeitschrift(Zeitschrift selectedItem)
         {
             Binding bind = new Binding("Titel");
             bind.Source = selectedItem;
-            txtTitle.SetBinding(TextBox.TextProperty, bind);
+            txtTitel.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Erscheinungsjahr");
             bind.Source = selectedItem;
-            txtYear.SetBinding(TextBox.TextProperty, bind);
+            txtJahr.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Themen");
             bind.Source = selectedItem;
-            txtVerfasser.SetBinding(TextBox.TextProperty, bind);
+            txtAutor.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Nr"); 
             bind.Source = selectedItem;
-            txtPublisher.SetBinding(TextBox.TextProperty, bind);
+            txtVerlag.SetBinding(TextBox.TextProperty, bind);
+            cmbTyp.SelectedIndex = 3;
+           // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
         }
 
         private void btnLoeschen_Click(object sender, RoutedEventArgs e)
@@ -314,10 +314,11 @@ namespace MedienBibliothekWPF
             }
             return temp;
         }
-
-        private void Zurueck_Click(object sender, RoutedEventArgs e)
+        
+        private void Uebernehmen_Click(object sender, RoutedEventArgs e)
         {
-            btnAbbrechen_Click(sender, e);
+            myLib.Bestand.Remove((Medien)lstMedien.SelectedItem);
+            btnSpeichern_Click(sender, e);
         }
     }
 }
