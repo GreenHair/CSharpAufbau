@@ -217,13 +217,13 @@ namespace MedienBibliothekWPF
         private void BearbeitenCD(MusikCD selectedItem)
         {
             Binding bind = new Binding("Titel");
-            bind.Source = selectedItem;
+            bind.Source = selectedItem; bind.Mode = BindingMode.OneTime;
             txtTitel.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Erscheinungsjahr");
-            bind.Source = selectedItem;
+            bind.Source = selectedItem; bind.Mode = BindingMode.OneTime;
             txtJahr.SetBinding(TextBox.TextProperty, bind);
             bind = new Binding("Interpret");
-            bind.Source = selectedItem;
+            bind.Source = selectedItem; bind.Mode = BindingMode.OneTime;
             txtAutor.SetBinding(TextBox.TextProperty, bind);
             cmbTyp.SelectedIndex = 1;
            // MessageBox.Show(cmbTyp.SelectedIndex.ToString());
