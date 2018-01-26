@@ -170,7 +170,7 @@ namespace MedienBibliothekWPF
             stckAendern.Visibility = Visibility.Visible;
             btnLoeschen.IsEnabled = false;
             btnBearbeiten.IsEnabled = false;
-            btnAbbrechen.IsEnabled = false;           
+            btnAbbrechen.IsEnabled = true;           
             if(lstMedien.SelectedItem.GetType() == typeof(Buch))
             {
                 lblPublisher.Visibility = Visibility.Visible;
