@@ -21,7 +21,6 @@ namespace Fahrzeugvermietung
     public partial class MainWindow : Window
     {
         Fuhrpark Vermietung = new Fuhrpark();
-        //string dateipfad = @"D:\CSharp Aufbau\Fahrzeugvermietung\Fahrzeugvermietung\Fahrzeuge.dat";
         string dateipfad = @"..\..\Fahrzeuge.dat";
         public MainWindow()
         {
@@ -54,23 +53,22 @@ namespace Fahrzeugvermietung
                     double last = Convert.ToDouble(txtTueren.Text);
                     Vermietung.AlleFahrzeuge.Add(new Kleinlaster(knzchn, lstng, last));
                     break;
-                case 2:
-                    bool bwgn = Convert.ToBoolean(Convert.ToInt32(txtTueren.Text));
-                    Vermietung.AlleFahrzeuge.Add(new Kraftrad(knzchn, lstng, bwgn));
+                case 2:                    
+                    Vermietung.AlleFahrzeuge.Add(new Kraftrad(knzchn, lstng, (bool)chckBox.IsChecked));
                     break;
             }
             Datei.ListeSpeichern(dateipfad, Vermietung.AlleFahrzeuge);
             lstBoxFahrzeuge.ItemsSource = Vermietung.AlleFahrzeuge;
-            stckEingabe.Visibility = Visibility.Collapsed;
-            dckListe.Visibility = Visibility.Visible;
-
+            btnAbbrechen_Click(sender, e);
         }
 
         private void btnNeu_Click(object sender, RoutedEventArgs e)
         {
+            TextfelderLeeren();
             stckEingabe.Visibility = Visibility.Visible;
             dckListe.Visibility = Visibility.Collapsed;
             btnAbbrechen.IsEnabled = true;
+            btnSpeichern.IsEnabled = true;
         }
 
         private void btnAbbrechen_Click(object sender, RoutedEventArgs e)
@@ -80,8 +78,17 @@ namespace Fahrzeugvermietung
             btnAbbrechen.IsEnabled = false;
         }
 
+        private void TextfelderLeeren()
+        {
+            txtKennzeichen.Text = "";
+            txtLeistung.Text = "";
+            txtTueren.Text = "";
+        }
+
         private void cmbTyp_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            chckBox.Visibility = Visibility.Collapsed;
+            txtTueren.Visibility = Visibility.Visible;
             switch (cmbTyp.SelectedIndex)
             {
                 case 0:
@@ -92,34 +99,39 @@ namespace Fahrzeugvermietung
                     break;
                 case 2:
                     lblEigenschaft.Content = "Beiwagen? (0=nein/1=ja)";
+                    chckBox.Visibility = Visibility.Visible;
+                    txtTueren.Visibility = Visibility.Collapsed;
                     break;
             }
         }
 
         private void lstBoxFahrzeuge_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            dckListe.Visibility = Visibility.Collapsed;
-            stckEingabe.Visibility = Visibility.Visible;
-            btnAbbrechen.IsEnabled = true;            
-            if(lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Auto))
+            if (lstBoxFahrzeuge.SelectedItem != null)
             {
-                cmbTyp.SelectedIndex = 0;
-                txtTueren.Text = ((Auto)lstBoxFahrzeuge.SelectedItem).AnzTueren.ToString();
+                dckListe.Visibility = Visibility.Collapsed;
+                stckEingabe.Visibility = Visibility.Visible;
+                btnAbbrechen.IsEnabled = true;
+                btnSpeichern.IsEnabled = false;
+                if (lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Auto))
+                {
+                    cmbTyp.SelectedIndex = 0;
+                    txtTueren.Text = ((Auto)lstBoxFahrzeuge.SelectedItem).AnzTueren.ToString();
+                }
+                if (lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Kleinlaster))
+                {
+                    cmbTyp.SelectedIndex = 1;
+                    txtTueren.Text = ((Kleinlaster)lstBoxFahrzeuge.SelectedItem).Nutzlast.ToString();
+                }
+                if (lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Kraftrad))
+                {
+                    cmbTyp.SelectedIndex = 2;
+                    txtTueren.Text = ((Kraftrad)lstBoxFahrzeuge.SelectedItem).HatBeiwagen.ToString();
+                }
+                cmbTyp_SelectionChanged(sender, e);
+                txtKennzeichen.Text = ((Fahrzeug)lstBoxFahrzeuge.SelectedItem).Kennzeichen;
+                txtLeistung.Text = ((Fahrzeug)lstBoxFahrzeuge.SelectedItem).Leistung.ToString();
             }
-            if (lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Kleinlaster))
-            {
-                cmbTyp.SelectedIndex = 1;
-                txtTueren.Text = ((Kleinlaster)lstBoxFahrzeuge.SelectedItem).Nutzlast.ToString();
-            }
-            if (lstBoxFahrzeuge.SelectedItem.GetType() == typeof(Kraftrad))
-            {
-                cmbTyp.SelectedIndex = 2;
-                txtTueren.Text = ((Kraftrad)lstBoxFahrzeuge.SelectedItem).HatBeiwagen.ToString();
-            }
-            cmbTyp_SelectionChanged(sender, e);
-            txtKennzeichen.Text = ((Fahrzeug)lstBoxFahrzeuge.SelectedItem).Kennzeichen;
-            txtLeistung.Text = ((Fahrzeug)lstBoxFahrzeuge.SelectedItem).Leistung.ToString();
-            
         }
     }
 }

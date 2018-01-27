@@ -12,3 +12,17 @@ D:\CSharp Aufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermiet
 D:\CSharp Aufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.csproj.GenerateResource.Cache
 D:\CSharp Aufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.exe
 D:\CSharp Aufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.pdb
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\bin\Debug\Fahrzeugvermietung.exe.config
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.exe
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.pdb
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\bin\Debug\Fahrzeugvermietung.exe
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\bin\Debug\Fahrzeugvermietung.pdb
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.csprojResolveAssemblyReference.cache
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\MainWindow.g.cs
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\App.g.cs
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung_MarkupCompile.cache
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung_MarkupCompile.lref
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\MainWindow.baml
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.g.resources
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.Properties.Resources.resources
+C:\Users\Auke Swen\Source\Repos\CSharpAufbau\Fahrzeugvermietung\Fahrzeugvermietung\obj\Debug\Fahrzeugvermietung.csproj.GenerateResource.Cache
