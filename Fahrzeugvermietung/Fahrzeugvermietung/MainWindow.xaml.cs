@@ -42,24 +42,48 @@ namespace Fahrzeugvermietung
         {
             lstBoxFahrzeuge.ItemsSource = null;
             string knzchn = txtKennzeichen.Text;
-            int lstng = Convert.ToInt32(txtLeistung.Text);
+            int lstng; 
             switch (cmbTyp.SelectedIndex)
             {
                 case 0:
-                    int tueren = Convert.ToInt32(txtTueren.Text);
-                    Vermietung.AlleFahrzeuge.Add(new Auto(knzchn, lstng, tueren));
+                    int tueren;
+                    if (int.TryParse(txtLeistung.Text, out lstng) && int.TryParse(txtTueren.Text,out tueren))
+                    {
+                        Vermietung.AlleFahrzeuge.Add(new Auto(knzchn, lstng, tueren));
+                        Datei.ListeSpeichern(dateipfad, Vermietung.AlleFahrzeuge);
+                        lstBoxFahrzeuge.ItemsSource = Vermietung.AlleFahrzeuge;
+                        btnAbbrechen_Click(sender, e);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Bitte nur Zahlenwerte Angeben!");
+                    } 
+                   
                     break;
                 case 1:
-                    double last = Convert.ToDouble(txtTueren.Text);
-                    Vermietung.AlleFahrzeuge.Add(new Kleinlaster(knzchn, lstng, last));
+                    double last;
+                    if (int.TryParse(txtLeistung.Text, out lstng) && double.TryParse(txtTueren.Text, out last))
+                    {
+                        Vermietung.AlleFahrzeuge.Add(new Kleinlaster(knzchn, lstng, last));
+                        Datei.ListeSpeichern(dateipfad, Vermietung.AlleFahrzeuge);
+                        lstBoxFahrzeuge.ItemsSource = Vermietung.AlleFahrzeuge;
+                        btnAbbrechen_Click(sender, e);
+                    }
+                    else
+                        MessageBox.Show("Bitte nur Zahlenwerte Angeben!");
                     break;
-                case 2:                    
-                    Vermietung.AlleFahrzeuge.Add(new Kraftrad(knzchn, lstng, (bool)chckBox.IsChecked));
+                case 2:
+                    if (int.TryParse(txtLeistung.Text, out lstng) && double.TryParse(txtTueren.Text, out last))
+                    {
+                        Vermietung.AlleFahrzeuge.Add(new Kraftrad(knzchn, lstng, (bool)chckBox.IsChecked));
+                        Datei.ListeSpeichern(dateipfad, Vermietung.AlleFahrzeuge);
+                        lstBoxFahrzeuge.ItemsSource = Vermietung.AlleFahrzeuge;
+                        btnAbbrechen_Click(sender, e);
+                    }
+                    else
+                        MessageBox.Show("Bitte nur Zahlenwerte Angeben!");
                     break;
             }
-            Datei.ListeSpeichern(dateipfad, Vermietung.AlleFahrzeuge);
-            lstBoxFahrzeuge.ItemsSource = Vermietung.AlleFahrzeuge;
-            btnAbbrechen_Click(sender, e);
         }
 
         private void btnNeu_Click(object sender, RoutedEventArgs e)
